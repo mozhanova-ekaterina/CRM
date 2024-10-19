@@ -1,6 +1,7 @@
 <template>
-  <div>
+  <NuxtLayout name="default">
+    <!-- Лейауты включаются путем добавления <NuxtLayout> в ваш app.vue: -->
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
-  </div>
+  </NuxtLayout>
 </template>
